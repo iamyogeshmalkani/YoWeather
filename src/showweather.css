@@ -1,0 +1,27 @@
+.weatherdata{
+
+  margin-top: 10%;
+  margin-left: 35%;
+
+
+ width: 60%;
+ border-radius: 10px;
+
+
+}
+.tempreture{
+  font-size: 4rem;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+.info{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+
+}
+.phw{
+margin-left: 30%;
+font-size: 1rem;
+}

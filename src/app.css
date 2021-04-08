@@ -1,0 +1,46 @@
+body {
+  /* The image used */
+  background-color: rgb(243,189,63);
+
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.App{
+
+
+}
+.form{
+ display: block;
+ margin-left: 35%;
+ margin-top: 5rem;
+ margin-right: 1rem;
+
+}
+.searchbar{
+  height: 40px;
+  width: 60%;
+  border-radius: 15px;
+  border: none;
+  border-width: 1px;
+ box-shadow: -2px 1px 12px 0px rgba(11,10,10,0.75);
+-webkit-box-shadow: -2px 1px 12px 0px rgba(11,10,10,0.75);
+-moz-box-shadow: -2px 1px 12px 0px rgba(11,10,10,0.75);
+font-size: 17px;
+padding-left: 10px;
+color: #1f1f1f;
+
+
+}
+.get{
+  border-radius: 10px;
+
+
+  height: 28px;
+  margin-left: 1rem;
+
+}
