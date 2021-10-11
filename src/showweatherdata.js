@@ -4,7 +4,7 @@ import "./showweather.css"
 
 const Data=(props)=>{
 
-  const icon = `http://openweathermap.org/img/wn/${props.icon}@2x.png`;
+  const icon = `http://opnpm run deployenweathermap.org/img/wn/${props.icon}@2x.png`;
   
 
   return(
@@ -26,7 +26,7 @@ const Data=(props)=>{
     <div className="phw">
     <p>pressure - {props.pressure}</p>
     <p>humidity - {props.humidity}</p>
-    <p >wind - {props.wind}m/s</p></div>
+    <p >wind - {props.wind}</p></div>
 
     </div>
 
