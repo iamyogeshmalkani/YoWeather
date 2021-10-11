@@ -28,16 +28,17 @@
   color: #61dafb;
 }
 body {
-  /* The image used */
-  background-color: rgb(241,164,29);
+  background-image: url('https://freepngimg.com/save/23698-weather-transparent-background/512x512'), url('https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/38562/thunderstorm-weather-clipart-md.png') ;
+   background-repeat: no-repeat;
+   background-position: left top, right bottom; ; 
+   background-size: 20rem;
 
-  /* Full height */
-  /* height: 100%; */
-
-  /* Center and scale the image nicely */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+    
+    
+    
+    
+    padding:0;
+    margin:0;
 }
 .App {
   text-align: center;

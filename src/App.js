@@ -45,7 +45,7 @@ getlocation();
 
 const initialcall=async ()=>{
   const key = "0bff05b94b60a05a8e1beddf0c903813";
-   const api =`https://api.openweathermap.org/data/2.5/onecall?lat=${location.lat}.44&lon=${location.long}.04&exclude=hourly,daily&appid=0bff05b94b60a05a8e1beddf0c903813`
+   const api =`https://api.openweathermap.org/data/2.5/onecall?lat=${location.lat}.44&lon=${location.long}.04&units=metric&exclude=hourly,daily&appid=0bff05b94b60a05a8e1beddf0c903813`
    const response = await fetch(api);
    const result = await response.json();
    console.log(result);
@@ -137,7 +137,7 @@ const initialcall=async ()=>{
          type="button"
          onClick={() => {
              getWeather(input);
-             setcondition(true);
+            
           }}>
          Go
        </Button>
@@ -147,6 +147,7 @@ const initialcall=async ()=>{
    
       <Data
         heading = "Current weather"
+        city={report.name}
          
 
          main ={report.main}

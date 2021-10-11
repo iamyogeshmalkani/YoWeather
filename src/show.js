@@ -13,7 +13,7 @@ export default function Data(props) {
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">city- {props.city}</h5>
               <p class="card-text">pressure - {props.pressure}</p>
               <p class="card-text">humidity - {props.humidity}</p>
               <p class="card-text">wind - {props.wind}m/</p>
