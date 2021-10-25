@@ -80,7 +80,7 @@ const initialcall=async ()=>{
 
  const apicall=async ()=>{
  const key = "0bff05b94b60a05a8e1beddf0c903813";
-  const api =`http://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=${key}`
+  const api =`https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=${key}`
   const response = await fetch(api);
   const result = await response.json();
   console.log(result);

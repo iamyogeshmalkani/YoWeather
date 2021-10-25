@@ -4,7 +4,7 @@ import "./showweather.css"
 
 const Data=(props)=>{
 
-  const icon = `http://opnpm run deployenweathermap.org/img/wn/${props.icon}@2x.png`;
+  const icon = `https://opnpm run deployenweathermap.org/img/wn/${props.icon}@2x.png`;
   
 
   return(
